@@ -5,6 +5,7 @@ import json
 #     input2 = np.random.randint(low = 0,high = 100, size = shape2)
 #     inputs = [input1,input2]
 #     return inputs
+# testing
 def gen_input_data(shape1 = (1,5),shape2 = (1,24,77)):
     input1 = np.random.randint(low =0,high = 100,size = shape1)
     input2 = np.random.randint(low = 0,high = 100, size = shape2)
